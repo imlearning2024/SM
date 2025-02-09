@@ -120,7 +120,7 @@ int main()
       fee_payment();
       break;
     case 6:
-      general();
+     general();
       break;
     case 7:
       printf("\nExiting");
