@@ -34,3 +34,40 @@ void parent_detail() {
     printf("\nParent Detail - Functionality Not Implemented Yet\n");
 }
 
+void detail()
+{
+
+  int opt;
+
+  while (1)
+  {
+
+    printf("\n\n-----details-------\n");
+
+    printf("\n1.Student Details");
+    printf("\n2.Parent Details");
+    printf("\n3.Exit");
+
+    printf("\nChoose options: ");
+    scanf("%d", &opt);
+
+    switch (opt)
+    {
+    case 1:
+      student_detail();
+      break;
+    case 2:
+      parent_detail();
+      break;
+    case 3:
+      printf("\nExiting .. Detial");
+      return;
+      break;
+    default:
+      printf("Invalid choice");
+      break;
+    }
+  }
+}
+
+
