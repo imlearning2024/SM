@@ -13,7 +13,7 @@ typedef struct
 {
     int roll;
     int room_no;
-    char class[NAME_LENGTH];
+    char Class[NAME_LENGTH];
     char section;
 } Class;
 
